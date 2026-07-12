@@ -8,7 +8,7 @@ import { NotificationsPage } from './features/notifications/ActivityTimeline';
 import { ReportsDashboard } from './features/reports/ReportsDashboard';
 import { NotificationCenter } from './components/shared/NotificationCenter';
 import { notificationApi, type Notification } from './api/api';
-import { LayoutDashboard, Calendar, Wrench, ShieldCheck, Bell, Activity, FileWarning, Menu, X, Settings, Package, ArrowRightLeft, PieChart, User as UserIcon } from 'lucide-react';
+import { LayoutDashboard, Calendar, Wrench, ShieldCheck, Bell, Activity, Menu, X, Settings, Package, ArrowRightLeft, PieChart, User as UserIcon } from 'lucide-react';
 
 const allNavLinks = [
   { to: '/', label: 'Dashboard', icon: <LayoutDashboard size={18} /> },
